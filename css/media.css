@@ -1,0 +1,161 @@
+@media (min-width: 320px) and (max-width: 768px) {
+    .heroContent input, .vistaText h3, .join_Community_image img, .join_Community_content_area, .newsletter_content input {
+        width: 100%;
+    }
+
+    .newsletter_content button {
+        width: 40%;
+    }
+
+    .socialMedia img {
+        width: 12%;
+    }
+
+    .partners h2 {
+        width: 50%;
+    }
+
+    .socialMedia img:last-child {
+        margin-right: 0px;
+    }
+
+    .P_bottom {
+        margin: 0;
+    }
+
+    .footer_menu {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email_input img {
+        right: 13px;
+    }
+
+    .heroContent h1 {
+        text-align: center;
+    }
+
+    .heroContent button {
+        width: 56%;
+    }
+
+    .sceneryArea {
+        height: 350px;
+    }
+
+    .scenery_Slide img {
+        margin-top: 6rem;
+    }
+
+    .join_Community {
+        padding-top: 2rem;
+    }
+
+    .earth {
+        height: 163px;
+        background-size: cover;
+        position: relative;
+        margin-top: 2rem;
+    }
+
+    .earth_map_parent {
+        width: 100%;
+        height: 163px;
+        overflow: hidden;
+    }
+
+    .location1 {
+        top: 7rem;
+    }
+
+    .location2 {
+        position: absolute;
+        top: 26%;
+        left: 7%;
+    }
+
+    .location3 {
+        position: absolute;
+        top: 4rem;
+        left: 22%;
+    }
+
+    .location4 {
+        top: 4rem;
+    }
+
+    .location5 {
+        position: absolute;
+        right: 34%;
+        top: 1rem;
+    }
+
+    .location6 {
+        top: 7rem;
+    }
+
+    .location7 {
+        position: absolute;
+        right: 1rem;
+        top: 2rem;
+    }
+
+    .team_image h4 {
+        margin-top: -33px;
+    }
+
+    .newsletter {
+        background-repeat: no-repeat;
+        height: 20rem;
+        background-size: cover;
+    }
+
+    .ftr_spacing {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer_menu div {
+        margin-right: 30px;
+        border-bottom: 1px solid;
+        padding: 8px 0;
+        width: 100%;
+    }
+
+    .j_c_order {
+        order: 2;
+    }
+
+    /* animations  */
+
+    @keyframes shakeJointCom_first {
+        0% {
+            transform: translateY(-10px);
+        }
+
+        50% {
+            transform: translateY(10px);
+        }
+
+        100% {
+            transform: translateY(-10px);
+        }
+    }
+
+    @keyframes shakeJointCom_Sec {
+        0% {
+            transform: translateY(10px);
+        }
+
+        50% {
+            transform: translateY(-10px);
+        }
+
+        100% {
+            transform: translateY(10px);
+        }
+    }
+}
